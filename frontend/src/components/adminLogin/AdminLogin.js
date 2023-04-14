@@ -11,7 +11,7 @@ export default function AdminLogin() {
     const auth = useAuth();
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (email == '' || password == '') {
+        if (email === '' || password === '') {
             toast.error("Form field cannot be empty!", {
                 position: toast.POSITION.BOTTOM_CENTER
             });
@@ -19,12 +19,12 @@ export default function AdminLogin() {
             toast.error("Invalid Email!", {
                 position: toast.POSITION.BOTTOM_CENTER
             });
-        } else if (password == '') {
+        } else if (password === '') {
             toast.error("Invalid Password!", {
                 position: toast.POSITION.BOTTOM_CENTER
             });
         } else {
-            if (email == 'admin@gmail.com' && password == 'password') {
+            if (email === 'admin@gmail.com' && password === 'password') {
               
                 auth.login(email);
                 navigate("/admin/welcome");
