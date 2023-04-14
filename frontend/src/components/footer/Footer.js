@@ -35,11 +35,11 @@ export default function Footer() {
                             <div className="explore-us">
                                 <h4>Explore Us</h4>
                                 <ul>
-                                    <li><a href="https://www.abcservices.org/">About Us</a></li>
-                                    <li><a href="https://www.abcservices.org/youth">Our Services</a></li>
-                                    <li><a href="https://www.abcservices.org/take-action">Our Team</a></li>
-                                    <li><a href="https://www.abcservices.org/contact">Contact Us</a></li>
-                                    <li><a href="https://www.abcservices.org/take-action">FAQ</a></li>
+                                    <li><a href="https://inofinityrnd.com/">About Us</a></li>
+                                    <li><a href="https://inofinityrnd.com/">Our Services</a></li>
+                                    <li><a href="https://inofinityrnd.com/">Our Team</a></li>
+                                    <li><a href="https://inofinityrnd.com/">Contact Us</a></li>
+                                    <li><a href="https://inofinityrnd.com/">FAQ</a></li>
                                     </ul>
                                     </div>
                             </div>

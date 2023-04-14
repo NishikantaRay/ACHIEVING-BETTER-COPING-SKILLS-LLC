@@ -62,7 +62,7 @@ export default function VerifySection() {
     }
     const handelFindMore=(e)=> {
         e.preventDefault();
-        navigate("/");
+        navigate("https://abcskill.org/courses-list/");
     }
    
     return (
@@ -101,7 +101,7 @@ export default function VerifySection() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <button type='submit' className='findmore'>Find More</button>
+                            <button type='submit' onClick={()=>{window.open("https://abcskill.org/courses-list/", "_blank");}} className='findmore'>Find More</button>
                         </div>
                         <div className="col-md-4"></div>
                         <div className="col-md-4"></div>
@@ -113,7 +113,7 @@ export default function VerifySection() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 col-12">
-                            <button type='submit' onClick={(e)=>{handelFindMore(e)}} className='findmoremob'>Find More</button>
+                            <button type='submit' onClick={()=>{window.open("https://abcskill.org/courses-list/", "_blank");}} className='findmoremob'>Find More</button>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ export default function Notfound() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <button type='submit' className='findmoresu'>Find More</button>
+                        <button type='submit' onClick={()=>{window.open("https://abcskill.org/courses-list/", "_blank");}} className='findmoresu'>Find More</button>
                     </div>
                     <div className="col-md-4"></div>
                     <div className="col-md-4"></div>
@@ -19,7 +19,7 @@ export default function Notfound() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 col-12">
-                            <button type='submit' className='findmoremobsu'>Find More</button>
+                            <button type='submit' onClick={()=>{window.open("https://abcskill.org/courses-list/", "_blank");}} className='findmoremobsu'>Find More</button>
                         </div>
                     </div>
                 </div>
