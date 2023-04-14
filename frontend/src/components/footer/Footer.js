@@ -14,7 +14,7 @@ export default function Footer() {
                             <div className="join-newsletter">
                                 <h4>Join Our Newsletter</h4>
                                 <p>Subscribe to our newsletter and get our latest news and offers.</p>
-                                <form action="#">
+                                <form >
                                     <input type="email" className='emailbox' placeholder="Enter your email" />
                                     <button type="submit" className='subButton'>Subscribe</button>
                                 </form>
@@ -24,7 +24,7 @@ export default function Footer() {
                                     
                                     <div className="social-icons ">
                                         <a href="https://www.facebook.com/inofinityrnd"><i className="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i className="fab fa-twitter"></i></a>
+                                        <a href="/"><i className="fab fa-twitter"></i></a>
                                         
                                         <a href="https://www.linkedin.com/company/inofinity-rnd-pvt-ltd/"><i className="fab fa-linkedin-in"></i></a>
                                         </div>

@@ -13,7 +13,7 @@ export default function VerifiedSection() {
     email: email,
     cID: cID
   }
-  axios.post(`http://15.207.73.156:5031/api/v1/certificateCRUD/getCertificateRoutes/getCertificateByEmailAndCid`, data)
+  axios.post(`${process.env.REACT_APP_BASE_URL}/api/v1/certificateCRUD/getCertificateRoutes/getCertificateByEmailAndCid`, data)
     .then(res => {
       
       setAPIData(res.data.data[0])

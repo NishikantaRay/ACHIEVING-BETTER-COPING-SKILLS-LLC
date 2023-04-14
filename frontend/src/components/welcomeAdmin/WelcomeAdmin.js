@@ -4,6 +4,7 @@ import axios from 'axios'
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 export default function WelcomeAdmin() {
     const navigate = useNavigate();
     const [name, setName] = useState('')
@@ -53,7 +54,7 @@ export default function WelcomeAdmin() {
                 position: toast.POSITION.BOTTOM_CENTER
             });
         }else{
-            axios.post(`http://15.207.73.156:5031/api/v1/certificateCRUD/getCertificateRoutes/addCertificate`, data)
+            axios.post(`${process.env.REACT_APP_BASE_URL}/api/v1/certificateCRUD/getCertificateRoutes/addCertificate`, data)
 
             .then(res => {
             
