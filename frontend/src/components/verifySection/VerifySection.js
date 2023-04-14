@@ -60,10 +60,7 @@ export default function VerifySection() {
                 )
         }
     }
-    const handelFindMore=(e)=> {
-        e.preventDefault();
-        navigate("https://abcskill.org/courses-list/");
-    }
+   
    
     return (
         

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import './verified.css'
 import axios from 'axios'
@@ -7,6 +7,7 @@ export default function VerifiedSection() {
 
   const { email, cID } = useParams()
   const [apiData, setAPIData] = useState(null)
+  const apiCall = (email,cID) => {
 
   const data = {
     email: email,
@@ -14,7 +15,7 @@ export default function VerifiedSection() {
   }
   axios.post(`http://localhost:4031/api/v1/certificateCRUD/getCertificateRoutes/getCertificateByEmailAndCid`, data)
     .then(res => {
-      console.log(res.data.data[0]);
+      
       setAPIData(res.data.data[0])
 
     }
@@ -24,6 +25,11 @@ export default function VerifiedSection() {
 
     }
     )
+  }
+  
+  useEffect(() => {
+    apiCall(email,cID)
+  }, [email,cID])
 
   return (
     <div>
