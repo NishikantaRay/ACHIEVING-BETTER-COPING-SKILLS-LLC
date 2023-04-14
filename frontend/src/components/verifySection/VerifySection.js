@@ -31,7 +31,7 @@ export default function VerifySection() {
                 position: toast.POSITION.BOTTOM_CENTER
             });
         } else {
-            axios.post(`http://localhost:5031/api/v1/certificateCRUD/getCertificateRoutes/getCertificateByEmailAndCid`, data)
+            axios.post(`http://15.207.73.156:5031/api/v1/certificateCRUD/getCertificateRoutes/getCertificateByEmailAndCid`, data)
                 .then(res => {
            
                     if (res.data.code === 200) {

@@ -53,7 +53,7 @@ export default function WelcomeAdmin() {
                 position: toast.POSITION.BOTTOM_CENTER
             });
         }else{
-            axios.post(`http://localhost:5031/api/v1/certificateCRUD/getCertificateRoutes/addCertificate`, data)
+            axios.post(`http://15.207.73.156:5031/api/v1/certificateCRUD/getCertificateRoutes/addCertificate`, data)
 
             .then(res => {
             
