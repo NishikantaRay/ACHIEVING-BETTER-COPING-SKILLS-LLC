@@ -1,0 +1,132 @@
+#imagefooter {
+    width: 100%;
+    height: 165px;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 1489px;
+    height: 320px;
+    background: linear-gradient(272.51deg, #B32973 -9.34%, #050A24 82.39%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.emailbox {
+    width: 60%;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.subButton {
+    width: 100px;
+    height: 50px;
+
+    background: linear-gradient(272.51deg, #B32973 -7.14%, #050A24 84.59%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.join-newsletter h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.join-newsletter p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer-links {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    width: 88px;
+    height: 24px;
+    display: flex;
+    padding: 0px;
+    gap: 36px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-facebook-f {
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    color: #FFFFFF;
+}
+
+.fa-linkedin-in {
+    color: #FFFFFF;
+}
+.explore-us h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.explore-us ul li a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+.explore-us ul li a:hover{
+    text-decoration: underline;   
+}
+
+@media screen and (max-width: 768px) {
+   #imagefooter{
+    box-sizing: border-box;
+    width: 100%;
+    height: 165px;
+   }
+   .footer{
+    width: 100%;
+    height: 100%;
+    background: #050A24;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 30px;
+   }
+  .explore-us{
+    display: none;
+  }
+   
+}

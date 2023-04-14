@@ -1,0 +1,106 @@
+.nav-css {
+    background-color: #fefefe;
+}
+
+.navbar-logo {
+    position: absolute;
+    width: 300px;
+    height: 108px;
+    left: 0px;
+    top: -2px;
+}
+
+.navbar-brand {
+    width: 300px;
+    height: 92px;
+}
+
+.nav-link {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 88%;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #B32973;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.btn-primary-active {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    font-family: 'inter';
+    font-style: normal;
+    width: 100px;
+}
+
+.btn-primary-inactive {
+    background: linear-gradient(272.51deg, #B32973 -7.14%, #050A24 84.59%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 100px;
+}
+
+/* media query for mobile view */
+
+@media only screen and (max-width: 600px) {
+    .navbar-logo {
+        position: absolute;
+        width: 200px;
+        height: 72px;
+        left: 0px;
+        top: 2px;
+    }
+    .navbar-brand {
+        width: 200px;
+        height: 60px;
+    }
+    .nav-link {
+        font-family: 'inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 88%;
+        text-align: center;
+    }
+    .nav-link:hover {
+        text-decoration: underline;
+        text-decoration-color: #B32973;
+    }
+    .nav-item {
+        padding: 0px 10px;
+    }
+    .btn-primary-active {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 19px;
+        font-family: 'inter';
+        font-style: normal;
+        width: 100px;
+    }
+    .btn-primary-inactive {
+        background: linear-gradient(272.51deg, #B32973 -7.14%, #050A24 84.59%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 19px;
+        font-family: 'inter';
+        font-style: normal;
+        font-weight: 400;
+        color: #FFFFFF;
+        width: 100px;
+    }
+    .mob-view{
+        margin-left: 70px;
+    }
+}
+
