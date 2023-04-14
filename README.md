@@ -1,4 +1,3 @@
-# 
-abcskillsorg-verify-portal
+# abcskillsorg-verify-portal
 
 Freelancing
