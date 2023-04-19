@@ -106,7 +106,7 @@ export default function WelcomeAdmin() {
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
-                                    <input type="text" class="form-control formc" value={contact} onChange={(e) => setContact(e.target.value)} placeholder="Enter Your Contact Number" />
+                                    <input type="text" class="form-control formc" value={contact} onChange={(e) => setContact(e.target.value)} placeholder="Enter Your Contact Number (Without Country code)" />
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Trainer/Guide</label>

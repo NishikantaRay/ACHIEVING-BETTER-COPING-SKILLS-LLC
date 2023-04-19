@@ -24,7 +24,7 @@ export default function AdminLogin() {
                 position: toast.POSITION.BOTTOM_CENTER
             });
         } else {
-            if (email === 'admin@gmail.com' && password === 'password') {
+            if (email === 'admin@gmail.com' && password === 'J*xF%93I2B1j') {
               
                 auth.login(email);
                 navigate("/admin/welcome");
